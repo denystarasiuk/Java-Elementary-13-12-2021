@@ -1,4 +1,4 @@
-package ua.hillel.denys.homework.hw1;
+package ua.hillel.denys.homework.hw2;
 
 /**
  * JavaDoc
