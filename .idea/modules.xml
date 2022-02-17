@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Java-Elementary-13-12-2021.iml" filepath="$PROJECT_DIR$/Java-Elementary-13-12-2021.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaElementary/JavaElementary.iml" filepath="$PROJECT_DIR$/JavaElementary/JavaElementary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaElementary/mavenProjects/homeWork13/homeWork13.iml" filepath="$PROJECT_DIR$/JavaElementary/mavenProjects/homeWork13/homeWork13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaElementary/mavenProjects/jarAppJava/jarAppJava.iml" filepath="$PROJECT_DIR$/JavaElementary/mavenProjects/jarAppJava/jarAppJava.iml" />
     </modules>
   </component>
 </project>
