@@ -26,9 +26,9 @@ public class StreamsService {
 //    }
 
     // отфильтровать и вывести на экран все значения, которые написаны в loverCase and length = 4
-    public static List<String>filterLoverCase(List<String>strings){
+    public static List<String> filterLoverCase(List<String> strings) {
         return strings.stream()
-                .filter(s->s.equals(s.toLowerCase())&&s.length()==4)
+                .filter(s -> s.equals(s.toLowerCase()) && s.length() == 4)
                 .collect(Collectors.toList());
     }
 }
