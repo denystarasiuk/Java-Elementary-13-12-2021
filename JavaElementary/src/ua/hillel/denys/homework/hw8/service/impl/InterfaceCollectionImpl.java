@@ -3,8 +3,9 @@ package ua.hillel.denys.homework.hw8.service.impl;
 import ua.hillel.denys.homework.hw8.service.InterfaceCollection;
 
 import java.util.Arrays;
+import java.util.Iterator;
 
-public class InterfaceCollectionImpl implements InterfaceCollection {
+public class InterfaceCollectionImpl implements InterfaceCollection, Iterable<Object> {
 
     private Object[] ArrayInterfaceCollection;
     private int count;
@@ -118,5 +119,25 @@ public class InterfaceCollectionImpl implements InterfaceCollection {
                 "ArrayInterfaceCollection=" + Arrays.toString(ArrayInterfaceCollection) +
                 ", count=" + count +
                 '}';
+    }
+
+    @Override
+    public Iterator<Object> iterator() {
+        return new ListIterator();
+    }
+
+    private class ListIterator implements Iterator<Object> {
+
+        private int currentIndex;
+
+        @Override
+        public boolean hasNext() {
+            return currentIndex < count;
+        }
+
+        @Override
+        public Object next() {
+            return ArrayInterfaceCollection[currentIndex++];
+        }
     }
 }

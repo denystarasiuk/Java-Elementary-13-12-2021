@@ -9,12 +9,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="homeWork13" />
         <module name="jarAppJava" />
+        <module name="homeWork12" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="homeWork12" target="17" />
       <module name="homeWork13" target="17" />
       <module name="hw13" target="17" />
-      <module name="jarAppJava" target="11" />
+      <module name="jarAppJava" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

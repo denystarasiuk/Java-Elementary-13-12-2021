@@ -4,9 +4,9 @@ import ua.hillel.denys.homework.hw8.service.impl.InterfaceCollectionImpl;
 
 /**
  * JavaDoc
- *
+ * <p>
  * Реализовать простую коллекцию для Object на базе массива используя интерфейс
- *
+ * <p>
  * Interface collection:
  * 1. boolean add(Object o);
  * 2. boolean add(index, Object o);
@@ -30,6 +30,13 @@ public class InterfaceCollectionMain {
         interfaceCollection.add(2);
         interfaceCollection.add(3);
         System.out.println(interfaceCollection.toString());
+        System.out.println("==========");
+
+        System.out.println("Iterator");
+//        for (Object o : interfaceCollection) {
+//            System.out.println(o);
+//        }
+        interfaceCollection.iterator().forEachRemaining(System.out::println);
         System.out.println("==========");
 
         System.out.println("Добавляем значение в массив");
